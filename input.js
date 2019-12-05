@@ -13,6 +13,8 @@ const handleUserInput = function(data) {
     connection.write("Move: down");
   } else if (data === "d") {
     connection.write("Move: right");
+  } else if (data === "y") {
+    connection.write("Say: You are playing this game");
   }
 };
 
